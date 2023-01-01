@@ -1,0 +1,14 @@
+<h1>Movies#new</h1>
+<p>
+<%= form_with url: movies_path do |form| %>
+<%= label_tag( :title, "Movie Title:" ) %>
+<%= text_field_tag( :title, "", maxlength: 100000000000000000000000000000000 ) %>
+<%= label_tag( :rating, "Movie Rating:" ) %>
+<%= text_field_tag( :rating, "", maxlength: 100000000000000000000000000000000 ) %>
+<%= label_tag( :release_date, "Movie Release Date:" ) %>
+<%= text_field_tag( :release_date, 2021, maxlength: 100000000000000000000000000000000 ) %>
+<%= label_tag( :description, "Movie Description:" ) %>
+<%= text_field_tag( :description, "", maxlength: 100000000000000000000000000000000 ) %>
+<%= submit_tag 'Create!' %>
+<% end %>
+</p>

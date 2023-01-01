@@ -1,0 +1,15 @@
+<% if flash[:message] %>
+<p><%= flash.now[:message] %></p>
+<% end %>
+<h1>Movies</h1>
+<ul>
+<% @movies.each do |movie| %>
+<li><%= movie.title%> ( <%= (movie.release_date).year %>) </li>
+<ul>
+<li>Movie details: <a href="https://speed-garcia-3000.codio.io/movies/<%= movie.id %>"> 
+    Visit page to see the details of the movie "<%=movie.title %>"</a></li>    
+</ul>
+<% end %>
+</ul>
+<a href="https://speed-garcia-3000.codio.io/movies/new"> 
+    Add new movie</a>
