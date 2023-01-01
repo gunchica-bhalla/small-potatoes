@@ -1,36 +1,6 @@
 # README
-
-This README would normally document whatever steps are necessary to get the
-application up and running
-
 Author Name : Gunchica Bhalla 
-
-
-
-
 Heroku App URL: https://small-potatoes-g2bhalla.herokuapp.com/
+This applicating was created following the MVC approach to simulate the rotten tomatoes website with features like adding movies to the database.
 
 
-
-The link does not work without movies
-
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
